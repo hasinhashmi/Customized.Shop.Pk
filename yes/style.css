@@ -1,0 +1,70 @@
+.header {
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+  width: auto;
+
+}
+.content{
+  color: redl;
+}
+h1{
+	font-style: inherit;
+	color: #008B8B;
+	text-shadow: 5px 3px black;
+	 text-decoration-style: solid;
+	 text-transform: uppercase;
+	/* transform: skewY(10deg);*/
+	 font-weight: bold;
+	 font-size: 50px;
+
+}
+.box{
+	float: center;
+
+	border:5px solid #008080;
+padding:10px; 
+background:#8B0000;
+width:100%;
+text-align: center;
+color: black;
+font-weight: bold;
+font-size: 20px;
+}
+.column {
+  float: left;
+  width: 15%;
+  height: 100%;
+  background-color: #008080;
+  height: 200%;
+  padding: 10px;
+  border:5px solid #008B8B;
+}
+body{
+	background-color: black;
+}
+	.pic {
+  width: 50%;
+  height: 20%;
+  background: #008080;
+  transition-property: width, height;
+  transition-duration: 2s;
+
+}
+.pic:hover{
+	width: 80%;
+}
+.pic1 {
+  width: 70%;
+  background: #008080;
+  transition-property: width;
+  transition-duration: 1s;}
+  .pic1:hover{
+	width: 50%;
+}
+.footer {
+  background-color: #008080;
+  padding: 10px;
+  text-align: center;
+  border:5px solid #008B8B
+}
